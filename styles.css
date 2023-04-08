@@ -1,0 +1,115 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color:  #CCCCCC;
+    font-family: 'Alkatra', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+#img-div {
+  background-color: #2A2A2A;;
+color: #D9D9D9;
+  padding: 10px;
+  margin: 0 80px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.5;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+li {
+  position: relative;
+  padding: 40px 0;
+}
+
+li::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #F08080;
+  transform: translateY(-50%);
+}
+
+li:last-child::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #F08080;
+  transform: translateY(-50%);
+}
+
+li p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+
+/* Styles for the footer */
+footer {
+  background-color: #333;
+  color: #e72e2e;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.sayer{
+  font-size: 32px;
+}
